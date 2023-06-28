@@ -7,6 +7,8 @@
 
     <title>Meteora</title>
 
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -110,7 +112,7 @@
         </button>
     </div>
 
-    <h2 class="text-center">Busque por categoria:</h2>
+    <h2 class="text-center p-3">Busque por categoria:</h2>
 
     <div class="container row mx-auto g-4">
 
@@ -206,7 +208,7 @@
         </div>
     </div>
 
-    <h2 class="text-center">Produtos que estão em alta:</h2>
+    <h2 class="text-center p-3">Produtos que estão em alta:</h2>
 
     <div class="container row mx-auto g-4">
         <div class="col-12 col-md-6 col-xxl-4">
@@ -331,7 +333,46 @@
         </div>
     </div>
 
+    <section class="pb-4">
+        <h2 class="text-center p-3">Conheça todas as nossas facilidades</h2>
 
+        <div class="d-flex flex-column align-items-center gap-3 flex-lg-row justify-content-lg-center">
+            <div class="divs-facilidades d-flex">
+                <div><i class="bi bi-x-diamond fs-1"></i></div>
+                <div>
+                    <div class="ms-3 mb-1">PAGUE PELO PIX</div>
+                    <div class="texto-menor ms-3">Ganhe 5% OFF em pagamentos via PIX</div>
+                </div>
+            </div>
+            <div class="divs-facilidades d-flex">
+                <div><i class="bi bi-arrow-repeat fs-1"></i></div>
+                <div>
+                    <div class="ms-3 mb-1">TROCA GRÁTIS</div>
+                    <div class="texto-menor ms-3">Fique livre para trocar em até 30 dias.</div>
+                </div>
+            </div>
+            <div class="divs-facilidades d-flex">
+                <div><i class="bi bi-flower1 fs-1"></i></div>
+                <div>
+                    <div class="ms-3 mb-1">SUSTENTABILIDADE</div>
+                    <div class="texto-menor ms-3">Moda responsável, que respeita o meio ambiente.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="d-flex justify-content-center">
+        <form class="border border-secondary m-3 p-3 text-center w-50">
+            <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+            <div class="input-group my-3">
+                <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail"
+                    aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
+                <button type="button" id="button-addon2">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="text-center"><p class="py-3">&copy; Hewllsing</p></footer>
 </body>
 
 </html>
