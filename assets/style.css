@@ -7,5 +7,9 @@
 }
 
 .btn-primary {
-    background-color: #9353FF;
+    background-color: #9353FF !important;
+}
+
+.facilidades-green {
+    color: #DAFF01;
 }
